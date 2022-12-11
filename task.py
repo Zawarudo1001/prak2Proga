@@ -122,6 +122,8 @@ TaskGraph.addV('a', False, 0)
 TaskGraph.addV('b', False, 0)
 TaskGraph.addV('c', False, 0)
 TaskGraph.addV('d', False, 0)
+
+
 TaskGraph.addE('a', 'c', 15)
 TaskGraph.addE('a', 'b', 10)
 TaskGraph.addE('c', 'd', 7)
